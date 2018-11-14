@@ -4,23 +4,23 @@ NPM:
 
 Popular Packages:
 
-1.browserify	:	browser-side require() the node way.
-2.grunt-cli		:	The grunt command line interface.
-3.bower		:	The browser package manager.
-4.gulp		:	The streaming build system.
-5.grunt		:	The javascript task runner.
-6.express		:	Fast,unopinionated,minimalist web framework.
-7.npm		:	a package manager for Javascript.
-8.cordova		:	cordova command line interface tool.
-9.forever		:	A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever).
-10.lodash		:	Lodash modular utilities.
-11.request		:	Simplified HTTP request client.
-12.chalk		:	Terminal string styling done right.
-13.async		:	Higher-order functions and common patterns for asynchronous code.
-14.react		:	React is a JavaScript library for building user interfaces.
+1.browserify:	browser-side require() the node way.
+2.grunt-cli	:	The grunt command line interface.
+3.bower	:	The browser package manager.
+4.gulp	:	The streaming build system.
+5.grunt	:	The javascript task runner.
+6.express	:	Fast,unopinionated,minimalist web framework.
+7.npm	:	a package manager for Javascript.
+8.cordova	:	cordova command line interface tool.
+9.forever	:	A simple CLI tool for ensuring that a given node script runs continuously (i.e. forever).
+10.lodash	:	Lodash modular utilities.
+11.request	:	Simplified HTTP request client.
+12.chalk	:	Terminal string styling done right.
+13.async	:	Higher-order functions and common patterns for asynchronous code.
+14.react:	React is a JavaScript library for building user interfaces.
 15.bluebird	:	Full featured Promises/A+ implementation with exceptionally good performance.
-16.commander	:	the complete solution for node.js command-line programs.
-17.debug		:	small debugging utility.
-18.morgan		:	HTTP request logger middleware for node.js.
+16.commander:	the complete solution for node.js command-line programs.
+17.debug	:	small debugging utility.
+18.morgan	:	HTTP request logger middleware for node.js.
 19.nodemailer	:	Easy as cake e-mail sending from your Node.js applications.
-20.slug		:	Slugifies even utf-8 chars.
+20.slug	:	Slugifies even utf-8 chars.
