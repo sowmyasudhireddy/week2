@@ -1,0 +1,34 @@
+2.CALLBACK HELL?
+->Callback hell is a phenomenon that afflicts a JavaScript developer when he tries to execute multiple asynchronous operations one after the other. 
+->Also called as Pyramid of droom.
+
+There are multiple techniques for dealing with callback hell
+Using Async.js
+Using Promises
+
+ex:
+function callbackhell(){
+     setTimeout(function(){
+       console.log('1');
+        ser=tTimeout(function(){
+          console.log('2')
+           setTimeout(function(){
+            console.log('3');
+              ser=tTimeout(function(){
+               console.log('4');
+            },500);
+         },500);
+     },500);
+ },500);
+};
+callbackhell();
+
+output:
+1
+2
+3
+4
+
+
+
+
