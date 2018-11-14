@@ -19,3 +19,14 @@ appendFile='./readfile2.txt';
 ReadAppend(file,appendFile);
 appendFile='./readfile3.txt';
 ReadAppend(file,appendFile);
+
+
+output:
+
+PS C:\Users\Sowmya Sudhireddy\week2node> node Appendasync.js
+file read
+file read
+file read
+the data was appended to file
+the data was appended to file
+the data was appended to file
