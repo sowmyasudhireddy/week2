@@ -1,0 +1,29 @@
+MODULES:
+->Module in Node.js is a simple or complex functionality organized in single or multiple JavaScript files which can be reused throughout the Node.js application.
+Each module in Node.js has its own context, so it cannot interfere with other modules or pollute global scope. Each module can be placed in a separate .js file.
+      modules are 3 types:
+      1.Core Modules
+      2.Local Modules
+      3.Third Party Modules.
+->Core Modules:
+    The core modules include bare minimum functionalities of Node.js. These core modules are compiled into its binary distribution and load automatically when Node.js process start.In order to use Node.js core or NPM modules, you first need to import it using require() function.
+                                     var module = require('module_name');
+ some of the important core modules in Node.js are http,url,querystring etc.
+
+->Local Modules:
+ Local modules are modules created locally in your Node.js application. These modules include different functionalities of your application in separate files and folders.
+       var log = {
+            info: function (info) { 
+                console.log('Info: ' + info);
+            },
+            warning:function (warning) { 
+                console.log('Warning: ' + warning);
+            },
+            error:function (error) { 
+                console.log('Error: ' + error);
+            }
+    };
+
+module.exports = log
+In the above example of logging module, we have created an object with three functions - info(), warning() and error(). At the end, we have assigned this object to module.exports. The module.exports in the above example exposes a log object as a module.
+

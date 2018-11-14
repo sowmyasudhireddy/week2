@@ -1,0 +1,23 @@
+PROMISES:
+A Promise is a value returned by an asynchronous function to indicate the completion of the processing carried out by the asynchronous function. 
+Promises can be nested within each other to make code look better and easier to maintain when many asynchronous function need to be called at the same time.
+a promise represents the result of an asynchronous operation. 
+->A promise is in one of three different states:
+pending - The initial state of a promise.
+fulfilled - The state of a promise representing a successful operation.
+rejected - The state of a promise representing a failed operation.
+->Once a promise is fulfilled or rejected, it is immutable (i.e. it can never change again).
+
+
+The basic syntax of a promise is shown below;
+var promise = doSomethingAync()
+promise.then(onFulfilled, onRejected)
+	doSomethingAync" is any callback or asynchronous function which does some sort of processing.
+	This time, when defining the callback, there is a value which is returned called a "promise."
+	When a promise is returned, it can have 2 outputs. This is defined by the 'then clause'. Either the operation can be a success which is denoted by the 'onFulfilled' parameter. Or it can have an error which is denoted by the 'onRejected' parameter.
+
+Advantages of promises:
+Promises are built over callbacks, elegant way to handle asynchronous programs.
+Promises  allow cleaner and better, functional code with less errors.
+Provides catching mechanism which are not in callbacks.
+Promises are cleaner way for running asynchronous tasks to synchronous.
