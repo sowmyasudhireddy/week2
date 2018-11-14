@@ -13,3 +13,8 @@ var server = net.createServer(function(connection) {
 server.listen(8080, function() { 
    console.log('server is listening');
 });
+
+output:
+
+PS C:\Users\Sowmya Sudhireddy\Desktop\week2\netmodule> node netserver.js
+server is listening
